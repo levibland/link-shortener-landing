@@ -1,0 +1,62 @@
+@import '../../styles/vars.scss';
+
+.hero-container {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -75px;
+
+    .hero-left {
+        display: flex;
+        //align-items: center;
+        width: 50%;
+        justify-content: center;
+        margin-right: 100px;
+        flex-direction: column;
+        margin-left: 110px;
+        padding-left: 50px;
+
+        .hero-title {
+            color: $color-white;
+            width: 70%;
+            font-size: 35pt;
+            font-weight: 600;
+
+            .blue-text {
+                color: $color-blue-primary;
+            }
+        }
+
+        .hero-sub {
+            font-size: 15pt;
+            width: 60%;
+            margin-top: 25px;
+        }
+    }
+
+    .hero-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        overflow: hidden;
+        height: 600px;
+
+        .hero-img {
+            max-width: 220%;
+            margin-right: 120px;
+        }
+    }
+
+    .ellipse {
+        position: absolute;
+        right: -550px;
+        top: -550px;
+        width: 1200px;
+        z-index: -1;
+    }
+}

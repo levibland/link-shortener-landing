@@ -1,0 +1,19 @@
+@import '../../styles/vars.scss';
+
+a {
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
+
+.hero-button {
+    width: 175px;
+    height: 60px;
+    background: linear-gradient(to right, $color-blue-primary, $color-purple-primary);
+    color: $color-white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 12pt;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
